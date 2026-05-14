@@ -1,0 +1,11 @@
+sources:
+  - name: source_schema
+    database: airbnb_db
+    schema: source_schema
+    tables:
+      - name: listings
+        description: "Has all the listings data"
+      - name: bookings
+        description: "Has all the bookings data"
+      - name: hosts
+        description: "Has Airbnb Hosts data"
