@@ -34,4 +34,5 @@ models:
     # Config indicated by + and applies to all files under models/bronze layer/
     bronze_layer:
       +materialized: view
+      +incremental_strategy: append
       +schema: bronze_layer
