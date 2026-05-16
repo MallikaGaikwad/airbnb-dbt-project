@@ -36,3 +36,6 @@ models:
       +materialized: view
       +incremental_strategy: append
       +schema: bronze_layer
+    silver_layer:
+      +materialized: table
+      +schema: silver_layer
